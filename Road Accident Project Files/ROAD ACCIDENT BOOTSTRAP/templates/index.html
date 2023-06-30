@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ROAD ACCIDENT ANALYSIS - tableau</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+ 
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      
+     <a href="index.html" class="logo"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Dashboard</a></li>
+          <li><a class="nav-link scrollto" href="#services">Story</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Visualizations</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(static/assets/img/slide/slide-1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">ROAD ACCIDENT <span>ANALYSIS</span></h2>
+              <p class="animated fadeInUp">The objective of this project is to perform data exploration using SQL on a dataset that contains information about countrywide traffic accidents in the UK from 2019 to 2022. The dataset was initially stored in SQL Server for analysis purposes. Once the analysis was completed, the dataset was loaded into Tableau, where it was visualized through informative and visually appealing charts and graphs.</p>
+        
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">ROAD ACCIDENT DASHBOARD</h2>
+              <p class="animated fadeInUp">A dynamic and interactive dashboard was created through a process involving requirements gathering, data cleaning, processing, and visualization, providing valuable insights on total accidents, casualties by location, vehicle type, weather conditions, and tracking key performance indicators like year-over-year growth, enabling informed decision-making for enhancing road safety.</p>
+           
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">ROAD ACCIDENT STORY</h2>
+              <p class="animated fadeInUp">The captivating Tableau story employs diverse visualizations like donut charts, bar charts, bubble charts, and maps to present road accident information. Donut charts depict casualty distribution by weather conditions and road surfaces, while bar charts highlight casualties by road types. Maps visualize accident severity and geographical distribution of casualties. This comprehensive combination of visualizations enables viewers to gain valuable insights and make informed decisions for enhancing road safety.</p>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2>DASHBOARD</h2>
+        </div>
+
+        <div class="row justify-content-center">
+   <!-- 
+          
+     -->
+        </div>
+   
+      <div class='tableauPlaceholder' id='viz1688023503686' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ro&#47;RoadAccidentDashboard_16875018694120&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='RoadAccidentDashboard_16875018694120&#47;Dashboard1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ro&#47;RoadAccidentDashboard_16875018694120&#47;Dashboard1&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>               
+      <script type='text/javascript'>                   
+        var divElement = document.getElementById('viz1688023503686');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        if ( divElement.offsetWidth > 800 ) 
+        { 
+          vizElement.style.width='1600px';
+          vizElement.style.height='927px';
+        } 
+        else if ( divElement.offsetWidth > 500 ) 
+        { 
+          vizElement.style.width='1600px';
+          vizElement.style.height='927px';
+        } 
+        else 
+        { 
+          vizElement.style.width='100%';
+        vizElement.style.height='3027px';
+      }                    
+      var scriptElement = document.createElement('script'); 
+       scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+     </script>
+      </div>
+    </section><!-- End About Section -->
+
+
+   
+
+<!-- ======= Skills Section ======= -->
+<!--
+<section id="skills" class="skills">
+  <div class="container-fluid">
+    <div class="row justify-content-center skills-content">
+      <div class="col-xl-5 col-lg-6">
+        <div class="section-title" style="text-align: center;">
+          <h2 style="margin: 0;">ROAD ACCIDENTS</h2>
+        </div>
+      </div>
+
+      <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+        <div class="video-container" style="position: relative; width: 100%; padding-bottom: 56.25%; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/09D-QhFFnf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Skills Section -->
+-->
+
+
+
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+          <div class="container-fluid">
+    
+            <div class="section-title">
+              <h2>STORY</h2>
+            </div>
+    
+            <div class="row justify-content-center">
+              
+              <div class='tableauPlaceholder' id='viz1688024696880' style='position: relative'><noscript>
+                <a href='#'><img alt='Road Accidents Analysis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZF&#47;ZFBTHPYZ4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                  <param name='embed_code_version' value='3' />
+                   <param name='path' value='shared&#47;ZFBTHPYZ4' /> 
+                   <param name='toolbar' value='yes' />
+                   <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZF&#47;ZFBTHPYZ4&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                  </object>
+              </div>                
+                <script type='text/javascript'>  
+                  var divElement = document.getElementById('viz1688024696880');
+                  var vizElement = divElement.getElementsByTagName('object')[0];                   
+                  vizElement.style.width='1379px';vizElement.style.height='914px';                    
+                  var scriptElement = document.createElement('script');                    
+                  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      <!-- End Services Section -->
+
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container-fluid">
+  
+          <div class="section-title">
+            <h2>visualizations</h2>
+            <h3>Check our <span>visualizations</span></h3>
+            <p>Road accident dataset visualizations provide precise insights for proactive road safety measures.</p>
+          </div>
+  
+         <!-- <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+  -->
+  
+          <div class="row portfolio-container justify-content-center">
+  
+            <div class="col-xl-10">
+              <div class="row">
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/1.Total Accidents.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/1.Total Accidents.png" ><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/2.Total Casualties.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                     
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/2.Total Casualties.png"><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/3.Fatal Casualties.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/3.Fatal Casualties.png"><i class="bx bx-plus"></i></a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/4.Serious Casualties.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                   
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/4.Serious Casualties.png"><i class="bx bx-plus"></i></a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/5.Accident Sparkline.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/5.Accident Sparkline.png"><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/6.Total Casualties Sparkline.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/6.Total Casualties Sparkline.png"><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/7.Fatal Sparkline.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/7.Fatal Sparkline.png" ><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/8.Serious Sparkline.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/8.Serious Sparkline.png"><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/9.Slight Sparkline.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/9.Slight Sparkline.png"><i class="bx bx-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/10.Road Type.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                     
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/10.Road Type.png"><i class="bx bx-plus"></i></a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/11.Weather Condition.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/11.Weather Condition.png"><i class="bx bx-plus"></i></a>
+                  
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/12.Road Surface.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/12.Road Surface.png" ><i class="bx bx-plus"></i></a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/13.Serious Casualties by Location.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                     
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/13.Serious Casualties by Location.png"><i class="bx bx-plus"></i></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/14.District Area Categorization.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                     
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/14.District Area Categorization.png"><i class="bx bx-plus"></i></a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/15.road accidents acc to road type.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/15.road accidents acc to road type.png"><i class="bx bx-plus"></i></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/16.accidents by day.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/16.accidents by day.png"><i class="bx bx-plus"></i></a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/17.accidents by month.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                     
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/17.accidents by month.png"><i class="bx bx-plus"></i></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/18.accidents by Year.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/18.accidents by Year.png" ><i class="bx bx-plus"></i></a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/19.Vehicle type KPI.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/19.Vehicle type KPI.png"><i class="bx bx-plus"></i></a>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+
+
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="static/assets/img/portfolio/20.Vehicle Type Images.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      
+                      <div class="portfolio-links">
+                        <a href="static/assets/img/portfolio/20.Vehicle Type Images.png" ><i class="bx bx-plus"></i></a>
+                    
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End portfolio item -->
+  
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <h3>Our Hard Working <span>Team</span></h3>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">
+
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="member">
+                  <img src="static/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>Prateek Sachan</h4>
+                      <span>Team Head</span>
+                      <span>VELLORE CAMPUS</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+                <div class="member">
+                  <img src="static/assets/img/team/jashvika.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>N.Jashvika</h4>
+                      <span>Team Member-2</span>
+                      <span>VIT-AP CAMPUS</span>
+                      
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
+                <div class="member">
+                  <img src="static/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>Sriram.M</h4>
+                      <span>Team Member-3</span>
+                      <span>VIT-Chennai CAMPUS</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->
+
+              <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+                <div class="member">
+                  <img src="static/assets/img/team/srimani.jpg" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>K.Srimani</h4>
+                      <span>Team Member-4</span>
+                      <span>VIT-AP CAMPUS</span>
+                    </div>
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- End Member Item -->
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3>Get In Touch With <span>Us</span></h3>
+          
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">
+
+              <div class="col-lg-6">
+
+                <div class="row justify-content-center">
+
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-map"></i>
+                    <h4>Address</h4>
+                    <p>VIT VELLORE,Tamil Nadu<br>India,632014</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-phone"></i>
+                    <h4>Call Us</h4>
+                    <p>+91884031220</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-envelope"></i>
+                    <h4>Email Us</h4>
+                    <p>prateeksachan727@gmail.com</p>
+                  </div>
+                  <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                    <i class="bx bx-time-five"></i>
+                    <h4>Working Hours</h4>
+                    <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="name">Your Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <label for="email">Your Email</label>
+                      <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" name="message" rows="8" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="row">
+
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h4>Contact Us</h4>
+                <p>
+                  VIT VELLORE<br>
+                  VELLORE, Tamil Nadu 632014<br>
+                  India <br><br>
+                  <strong>Phone:</strong> +918840314220<br>
+                  <strong>Email:</strong> prateeksachan727@gmail.com<br>
+                </p>
+
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-info">
+                <h3>About Prateek</h3>
+                <p>Student at Vellore Institute of Technology | Frontend developer | Web Development | Java | Machine Learning | Data Science | Data Visualization</p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Prateek</span></strong>. All Rights Reserved
+      </div>
+     
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
